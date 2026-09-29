@@ -148,7 +148,7 @@ export const MyBookings: React.FC = () => {
                     </TableCell>
                     <TableCell className="text-xs font-medium">Test #{booking.test_id}</TableCell>
                     <TableCell className="text-xs font-medium">Centre #{booking.centre_id}</TableCell>
-                    <TableCell className="font-bold text-xs">${booking.amount}</TableCell>
+                    <TableCell className="font-bold text-xs">₹{booking.amount}</TableCell>
                     <TableCell>{getStatusBadge(booking.status)}</TableCell>
                     <TableCell className="text-right">
                       <div className="flex items-center justify-end gap-2">
